@@ -53,7 +53,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.RecycleV
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    RemoveItem(RecycleViewHolder.this.item);
+                    RemoveItem(item);
                 }
             });
         }
